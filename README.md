@@ -1,4 +1,4 @@
-responsive-slider
+jQuery responsive slider
 =================
 
-#jQuery responsive slider
+
