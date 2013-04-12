@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Slider</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="responsive-slider.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+	<header>
+		<h1>Responsive slider</h1>
+		<h2>How to use:</h2>
+		<p>Make slider a <code>ul</code> and put your images and captions in each <code>li</code>. Wrap your slider in a <code>div</code> and give it a class of <code>slider-wrap</code>. Put  <code>responsiveSlider ('.slider-wrap');</code> at the bottom of your HTML page above the <code><body></code> tag.</p>
+	</header>
+
+	<section>
+		<div id = "slider1" class = "slider-wrap">
+			<ul>
+				<li>
+					<img src = "img/image1.jpg" alt = "cow">
+					<!-- caption optional -->
+					<h3 class = "caption">cow</h3>
+				</li>
+				<li>
+					<img src = "img/image2.jpg" alt = "monkey">
+					<h3 class = "caption">monkey</h3> 
+				</li>
+				<li>
+					<img src = "img/image3.jpg" alt = "polar bear">
+					<h3 class = "caption">polar bear</h3>
+				</li>
+				<li>
+					<img src = "img/image4.jpg" alt = "deer">
+					<h3 class = "caption">deer</h3>
+				</li>
+				<li>
+					<img src = "img/image5.jpg" alt = "kangaroo">
+					<h3 class = "caption">kangaroo</h3>
+				</li>
+				<li>
+					<img src = "img/image6.jpg" alt = "birds">
+					<h3 class = "caption">birds</h3>
+				</li>
+				<li>
+					<img src = "img/image7.jpg" alt = "orangutan">
+					<h3 class = "caption">orangutan</h3>
+				</li>
+			</ul>
+			<a href = "" class = "arrows left"></a>
+			<a href = "" class = "arrows right"></a>
+			<ol class = "pagination"></ol>
+		</div>
+
+
+
+	</section>
+	
+	<footer>
+		<p>&copy; 2013 Rachel Ratner </p>
+	</footer>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src = "responsive-slider.js"></script>
+</body>
+</html>
