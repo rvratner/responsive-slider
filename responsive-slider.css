@@ -19,12 +19,10 @@ img {
 
 /* TYPOGRAPHY */
 
-body {
-	/*font-family: 'Oxygen', sans-serif;}*/}
 
 /* SLIDER WRAP*/
 
-.slider-wrap{
+.slider-wrap {
 	width: 100%;
 	max-width: 600px;
 	margin: auto;
@@ -40,7 +38,17 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	transition: all 1s;
+	/* know compass can be used here, wanted to keep it vanilla */
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(-0px);
+	-ms-transform: translateX(-0px);
+	transform: translateX(0px);
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -webkit-transform 1s;
+	-o-transition: -webkit-transform 1s;
+	-ms-transition: -webkit-transform 1s;
+	transition: transform 1s;
 }
 
 .slider-wrap ul > li {
@@ -115,6 +123,7 @@ body {
 .pagination a:hover, .pagination a.cur {
 	background-color: #425430;
 }
+
 
 
 
